@@ -24,7 +24,7 @@ async function checkweather(city){
             weathericon.src="images/noi-r.png";
             break;
         case "Rain":
-            weathericon.src="images/rain-r.png";
+            weathericon.src="images/Rain-r-1.png";
             break;
         case "Drizzle":
             weathericon.src="images/Thunder-r-1.png";
