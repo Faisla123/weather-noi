@@ -24,14 +24,17 @@ async function checkweather(city){
             weathericon.src="images/noi-r.png";
             break;
         case "Rain":
-            weathericon.src="images/Rain-r-1.png";
+            weathericon.src="images/rain-r.png";
             break;
         case "Drizzle":
             weathericon.src="images/Thunder-r-1.png";
             break;
         case "Mist":
-            weathericon.src="images/Sunc-r-1.png";
+            weathericon.src="images/Sunc-r.png";
             break;
+        case "Haze":
+            weathericon.src="images/Sunc-r.png";
+            break;    
         default:
             console.log("No weather icon available.");
     }    
